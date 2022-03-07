@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="github"
+                fetch="https://github.com" />
+
+        <!-- Sync trees -->
+        <project path="device/realme/r5x" name="MudabbirulSaad/device_realme_r5x" remote="github" revision="twelve" />
+        <project path="vendor/realme/r5x" name="MudabbirulSaad/vendor_realme_r5x" remote="github" revision="twelve" />
+        <project path="kernel/realme/r5x" name="MudabbirulSaad/kernel_realme_r5x" remote="github" revision="devel" />
+        <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1" />
+
+
+</manifest>
