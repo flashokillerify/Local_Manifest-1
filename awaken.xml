@@ -3,9 +3,8 @@
           
 <!-- Sync trees -->
 <project path="device/realme/r5x" name="youngstill/device_realme_r5x" remote="github" revision="awaken" />
-<project path="vendor/realme/r5x" name="pixelexperience.org/android/vendor-blobs/vendor_realme_r5x" remote="gitlab" revision="twelve" />
+<project path="vendor/realme/r5x" name="youngstill/vendor_realme_r5x" remote="gitlab" revision="twelve" />
 <project path="kernel/realme/r5x" name="youngstill/kernel_realme_r5x" remote="github" revision="twelve" />
-<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1" />
 
 
 </manifest>
