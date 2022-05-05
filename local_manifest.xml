@@ -6,5 +6,4 @@
 <project path="vendor/realme/r5x" name="youngstill/vendor_realme_r5x" remote="github" revision="twelve" />
 <project path="kernel/realme/r5x" name="youngstill/kernel_realme_r5x" remote="github" revision="twelve" />
 
-
 </manifest>
