@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
+<!-- Remotes -->
+
+ <remote  name="youngstill"
+           fetch="https://github.com/youngstill" />   
+
 <!-- Sync trees -->
-<project path="device/realme/r5x" name="youngstill/device_realme_r5x" remote="github" revision="awaken" />
-<project path="vendor/realme/r5x" name="youngstill/vendor_realme_r5x" remote="github" revision="twelve" />
-<project path="kernel/realme/r5x" name="youngstill/kernel_realme_r5x" remote="github" revision="twelve" />
+<project path="device/realme/r5x" name="device_realme_r5x" remote="youngstill" revision="awaken" />
+<project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="youngstill" revision="twelve" />
+<project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="youngstill" revision="twelve" />
 
 </manifest>
